@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Premium Confirmation</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AIS Learning</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            background-image: url('noteTakerRedirect.png');
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+		}
+
+        .login-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 250, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            border: 5px dashed navy;
+            text-align: center;
+			color : #000080;
+			font-family : 'Times New Roman';
+			font-size : 40px;
+        }
+
+        .login-container img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .login-container input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .login-container input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .custom-large-btn {
+            padding: 15px 20px;
+            font-size: 28px;
+            border-radius: 25px;
+            font-weight : bold;
+            font-style : italic;
+           }
+
+          .logo-container img {
+                width: 150px;
+                height: 150px;
+                opacity : 1.0;
+}
+
+
+    </style>
+</head>
+
+<body>
+<div class="login-container">
+
+    <div class="logo-container">
+        <img src="AIS_Logo2.png" alt="AIS Logo" width="250" height="250"/>
+    </div>
+    <h2 style ="font-size: 50px; font-weight:bold;font-style: italic;">
+        AIS Note Taker is available for <br/><span style="color: red;">
+        AIS Learning Premium Account Users only!!!
+    </span></h2>
+
+
+    <a href="http://localhost/Learners_Login/checkout.php">
+        <button type="button" class="btn btn-success custom-large-btn">
+            Upgrade To AIS Premium Account Now!!!
+        </button>
+    </a>
+    <br/>
+    <br/>
+    <h6 style ="font-size: 40px; font-weight:bold; font-style: italic;">Already a Premium AIS Learner? </h6>
+    <a href="http://localhost:3001/">
+        <button type="button" class="btn btn-success custom-large-btn">
+            AIS My Notes
+        </button>
+    </a>
+
+    <br/>
+
+</div>
+
+<a href="javascript:void(0)" onclick="window.history.back();">
+    <button type="button" class="btn btn-success">
+        Back
+    </button>
+</a>
+
+
+<style>
+    /* Style for the help button */
+    #helpButton {
+        position: fixed;
+        width: 35px;
+        bottom: 3px;
+        right: 25px;
+        background-color: black;
+        font-weight: bold;
+        font-size: 25px;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    /* Style for the help button on hover */
+    #helpButton:hover {
+        background-color: gray;
+    }
+
+    #helpButton{
+        text-decoration: none;
+        color:white;
+    }
+</style>
+
+<!-- Help button -->
+
+<a className="helpButton" href="http://localhost/forum/index.php">
+    <button id="helpButton">?</button>
+</a>
+
+
+
+</body>
+
+</html>
